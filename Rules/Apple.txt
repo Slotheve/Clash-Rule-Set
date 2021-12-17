@@ -129,6 +129,7 @@ payload:
   - DOMAIN-KEYWORD,applemx-icloud.com
   - DOMAIN-KEYWORD,icloud-content.com
   - DOMAIN-KEYWORD,icloud-isupport.com
+  - DOMAIN-KEYWORD,icloud
   - DOMAIN-KEYWORD,icloud.ch
   - DOMAIN-KEYWORD,icloud.com
   - DOMAIN-KEYWORD,icloud.de
