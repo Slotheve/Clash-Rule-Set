@@ -1,6 +1,5 @@
 payload:
   - DOMAIN-KEYWORD,akamaihd.net
-  - DOMAIN-KEYWORD,steam-chat.com
   - DOMAIN-KEYWORD,steamcontent.com
   - DOMAIN-KEYWORD,steamgames.com
   - DOMAIN-KEYWORD,steamstatic.com
