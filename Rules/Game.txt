@@ -1,0 +1,13 @@
+payload:
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,+.ssteam.me
+  - DOMAIN-SUFFIX,+.steam-chat.com
+  - DOMAIN-SUFFIX,+.steamcontent.com
+  - DOMAIN-SUFFIX,+.steamgames.com
+  - DOMAIN-SUFFIX,+.steamstatic.com
+  - DOMAIN-SUFFIX,+.steamunlocked.net
+  - DOMAIN-SUFFIX,+.steamusercontent.com
+  - DOMAIN-SUFFIX,epicgames-download1.akamaized.net
+  - DOMAIN-SUFFIX,static-assets-prod.epicgames.com
