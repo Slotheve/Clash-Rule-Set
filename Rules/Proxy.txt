@@ -1,4 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,+.nvidia.cn
-  - DOMAIN-SUFFIX,accounts.nvgs.nvidia.+
-  - DOMAIN-SUFFIX,+.renwox.cn
+  - DOMAIN,nvidia.cn
+  - DOMAIN,accounts.nvgs.nvidia
+  - DOMAIN,renwox.cn
