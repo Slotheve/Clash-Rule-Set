@@ -2,3 +2,5 @@ payload:
   - DOMAIN,nvidia.cn
   - DOMAIN,accounts.nvgs.nvidia
   - DOMAIN,renwox.cn
+  - DOMAIN-KEYWORD,google.com
+  - DOMAIN-KEYWORD,google
