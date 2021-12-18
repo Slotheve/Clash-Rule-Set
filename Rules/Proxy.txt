@@ -4,3 +4,6 @@ payload:
   - DOMAIN,renwox.cn
   - DOMAIN-KEYWORD,google.com
   - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,gstatic.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN,beacons*.gvt2.com
