@@ -297,6 +297,3 @@ payload:
   - DOMAIN-SUFFIX,lbs.map.qq.com
   - DOMAIN-SUFFIX,ue.indoorloc.map.qq.com
   - DOMAIN-SUFFIX,apis.map.qq.com
-  - 
-  - USER-AGENT,WeChat*
-  - USER-AGENT,MicroMessenger*
