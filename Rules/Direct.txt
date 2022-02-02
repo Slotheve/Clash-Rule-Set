@@ -1,4 +1,5 @@
 payload:
+  #WeChat
   - DOMAIN,wup.imtt.qq.com
   - DOMAIN,slife.xy-asia.com
   - DOMAIN,dldir1.qq.com
