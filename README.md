@@ -33,43 +33,36 @@ rule-providers:
   Apple:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@release/Apple.txt"
+    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Apple.txt"
     path: ./ruleset/Apple.yaml
-    interval: 86400
-
-  Proxy:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@release/Proxy.txt"
-    path: ./ruleset/Proxy.yaml
     interval: 86400
 
   Game:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@release/Game.txt"
+    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Game.txt"
     path: ./ruleset/Game.yaml
     interval: 86400
 
   Direct:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@release/Direct.txt"
+    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Direct.txt"
     path: ./ruleset/Direct.yaml
     interval: 86400
 
-  CNIP:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@release/CNIP.txt"
-    path: ./ruleset/CNIP.yaml
-    interval: 86400
-
-  Apps:
+  Direct-IP:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@release/Apps.txt"
-    path: ./ruleset/Apps.yaml
+    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Direct-IP.txt"
+    path: ./ruleset/Direct-IP.yaml
+    interval: 86400
+
+  Process:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Process.txt"
+    path: ./ruleset/Process.yaml
     interval: 86400
 
 ```
@@ -78,43 +71,36 @@ rule-providers:
   Apple:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/release/Apple.txt"
+    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Apple.txt"
     path: ./ruleset/Apple.yaml
-    interval: 86400
-
-  Proxy:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/release/Proxy.txt"
-    path: ./ruleset/Proxy.yaml
     interval: 86400
 
   Game:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/release/Game.txt"
+    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Game.txt"
     path: ./ruleset/Game.yaml
     interval: 86400
 
   Direct:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/release/Direct.txt"
+    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Direct.txt"
     path: ./ruleset/Direct.yaml
     interval: 86400
 
-  CNIP:
-    type: http
-    behavior: ipcidr
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/release/CNIP.txt"
-    path: ./ruleset/CNIP.yaml
-    interval: 86400
-
-  Apps:
+  Direct-IP:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/release/Apps.txt"
-    path: ./ruleset/Apps.yaml
+    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Direct-IP.txt"
+    path: ./ruleset/Direct-IP.yaml
+    interval: 86400
+
+  Process:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Process.txt"
+    path: ./ruleset/Process.yaml
     interval: 86400
   
 ```
@@ -128,10 +114,9 @@ rule-providers:
 rules:
   - RULE-SET,Apple,Apple
   - RULE-SET,Game,GAME
-  - RULE-SET,Proxy,PROXY
-  - RULE-SET,Apps,DIRECT
+  - RULE-SET,Process,DIRECT
+  - RULE-SET,Direct-IP,DIRECT
   - RULE-SET,Direct,DIRECT
-  - RULE-SET,CNIP,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
 ```
