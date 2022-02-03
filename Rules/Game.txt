@@ -10,3 +10,4 @@ payload:
   - DOMAIN-KEYWORD,epicgames-download1.akamaized.net
   - DOMAIN-KEYWORD,static-assets-prod.epicgames.com
   - DOMAIN-KEYWORD,ssl-lvlt.cdn.ea.com
+  - DOMAIN-KEYWORD,epicgames
