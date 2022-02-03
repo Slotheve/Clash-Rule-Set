@@ -34,7 +34,6 @@ payload:
   - DOMAIN-SUFFIX,ue.indoorloc.map.qq.com
   - DOMAIN-SUFFIX,apis.map.qq.com
   - DOMAIN-KEYWORD,cloudflare.com
-  - DOMAIN-SUFFIX,racknerd.com
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypalobjects.com
