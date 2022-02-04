@@ -3,3 +3,4 @@ payload:
   - DOMAIN-KEYWORD,icloud.com
   - DOMAIN-KEYWORD,itunes.com
   - DOMAIN-KEYWORD,itunes.apple.com
+  - DOMAIN-KEYWORD,mzstatic.com
