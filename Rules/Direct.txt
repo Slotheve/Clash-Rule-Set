@@ -32,7 +32,7 @@ payload:
   - DOMAIN-SUFFIX,up-hl.3g.qq.com
   - DOMAIN-SUFFIX,lbs.map.qq.com
   - DOMAIN-SUFFIX,ue.indoorloc.map.qq.com
-  - DOMAIN-SUFFIX,apis.map.qq.com
+  - DOMAIN-KEYWORD,qq.com
   #PayPal
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
