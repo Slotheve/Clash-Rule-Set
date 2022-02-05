@@ -40,3 +40,5 @@ payload:
   #Custerm
   - DOMAIN-KEYWORD,cloudflare.com
   - DOMAIN-SUFFIX,kuangxiangit.com
+  - DOMAIN-SUFFIX,slotheve.site
+  - DOMAIN-SUFFIX,slotheve.store
