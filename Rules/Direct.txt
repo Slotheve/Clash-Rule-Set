@@ -39,3 +39,4 @@ payload:
   - DOMAIN-SUFFIX,paypalobjects.com
   #Custerm
   - DOMAIN-KEYWORD,cloudflare.com
+  - DOMAIN-SUFFIX,kuangxiangit.com
