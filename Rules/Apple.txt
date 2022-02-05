@@ -4,3 +4,4 @@ payload:
   - DOMAIN-KEYWORD,itunes.com
   - DOMAIN-KEYWORD,itunes.apple.com
   - DOMAIN-KEYWORD,mzstatic.com
+  - DOMAIN-KEYWORD,flurry.com
