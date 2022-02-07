@@ -1,3 +1,4 @@
 payload:
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,google.cn
+  - DOMAIN-SUFFIX,googleapis.com
