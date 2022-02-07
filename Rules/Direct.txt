@@ -38,7 +38,6 @@ payload:
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypalobjects.com
   #Custerm
-  - DOMAIN-KEYWORD,cloudflare.com
   - DOMAIN-SUFFIX,kuangxiangit.com
   - DOMAIN-KEYWORD,slotheve.site
   - DOMAIN-KEYWORD,slotheve.store
