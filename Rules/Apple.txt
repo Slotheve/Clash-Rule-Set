@@ -5,3 +5,4 @@ payload:
   - DOMAIN-KEYWORD,itunes.apple.com
   - DOMAIN-KEYWORD,mzstatic.com
   - DOMAIN-KEYWORD,flurry.com
+  - DOMAIN-SUFFIX,cdn.apple-cloudkit.com
