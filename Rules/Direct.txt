@@ -40,5 +40,3 @@ payload:
   #Custerm
   - DOMAIN-SUFFIX,kuangxiangit.com
   - DOMAIN-SUFFIX,appsflyer.com
-  - DOMAIN-KEYWORD,slotheve.site
-  - DOMAIN-KEYWORD,slotheve.store
