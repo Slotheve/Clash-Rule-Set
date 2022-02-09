@@ -196,6 +196,7 @@ payload:
   - DOMAIN-SUFFIX,xboxlive.com
 
 # > Office 365
+  - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,o365cn.com
   - DOMAIN-SUFFIX,o365files.cn
   - DOMAIN-SUFFIX,o365weve-dev.com
@@ -242,6 +243,7 @@ payload:
   - DOMAIN-SUFFIX,renlifang.com
 
 # > Xbox
+  - DOMAIN-SUFFIX,xboxservices.com
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,forzamotorsport.net
   - DOMAIN-SUFFIX,forzaracingchampionship.com
@@ -259,6 +261,7 @@ payload:
   - DOMAIN-SUFFIX,xbx.lv
 
 # > Others
+  - DOMAIN-SUFFIX,windows.com
   - DOMAIN-KEYWORD,Applicationinsights
   - DOMAIN-KEYWORD,internetexplorer
   - DOMAIN-KEYWORD,microsofthouse
