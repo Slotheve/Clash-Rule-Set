@@ -125,8 +125,6 @@ payload:
   - DOMAIN-SUFFIX,storage.msn.com
   - DOMAIN-SUFFIX,svc.ms
   - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,xboxlive.com
 
 # > Office 365
   - DOMAIN-SUFFIX,office.com
