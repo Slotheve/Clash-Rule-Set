@@ -40,71 +40,10 @@ payload:
   - DOMAIN-SUFFIX,bethesdagamestudios.com
   - DOMAIN-SUFFIX,bethsoft.com
 
-# > Bing
-  - DOMAIN-SUFFIX,bbing.com
-  - DOMAIN-SUFFIX,bibg.com
-  - DOMAIN-SUFFIX,biing.com
-  - DOMAIN-SUFFIX,binb.com
-  - DOMAIN-SUFFIX,binf.com
-  - DOMAIN-SUFFIX,bing123.com
-  - DOMAIN-SUFFIX,bing135.com
-  - DOMAIN-SUFFIX,bing4.com
-  - DOMAIN-SUFFIX,bingads.com
-  - DOMAIN-SUFFIX,bingagencyawards.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,bingapistatistics.com
-  - DOMAIN-SUFFIX,binginternal.com
-  - DOMAIN-SUFFIX,bingit.net
-  - DOMAIN-SUFFIX,bingiton.com
-  - DOMAIN-SUFFIX,bingj.com
-  - DOMAIN-SUFFIX,bingpix.com
-  - DOMAIN-SUFFIX,bingpk.com
-  - DOMAIN-SUFFIX,bings.com
-  - DOMAIN-SUFFIX,bingsandbox.com
-  - DOMAIN-SUFFIX,bingtoolbar.com
-  - DOMAIN-SUFFIX,bingtranslator.com
-  - DOMAIN-SUFFIX,bingvisualsearch.com
-  - DOMAIN-SUFFIX,bingworld.com
-  - DOMAIN-SUFFIX,bluehatnights.com
-  - DOMAIN-SUFFIX,dictate.ms
-  - DOMAIN-SUFFIX,discoverbing.com
-  - DOMAIN-SUFFIX,explorebing.com
-  - DOMAIN-SUFFIX,flipwithsurface.com
-  - DOMAIN-SUFFIX,mapblast.com
-  - DOMAIN-SUFFIX,mappoint.com
-  - DOMAIN-SUFFIX,masalladeloslimites.com
-  - DOMAIN-SUFFIX,microsoft-give.com
-  - DOMAIN-SUFFIX,microsoftcloudsummit.com
-  - DOMAIN-SUFFIX,microsoftdiplomados.com
-  - DOMAIN-SUFFIX,microsoftlatamholiday.com
-  - DOMAIN-SUFFIX,microsoftmxfilantropia.com
-  - DOMAIN-SUFFIX,microsoftpartnersolutions.com
-  - DOMAIN-SUFFIX,msnmaps.com
-  - DOMAIN-SUFFIX,msunlimitedcloudsummit.com
-  - DOMAIN-SUFFIX,myhomemsn.com
-  - DOMAIN-SUFFIX,office365love.com
-  - DOMAIN-SUFFIX,office365tw.com
-  - DOMAIN-SUFFIX,osdinfra.net
-  - DOMAIN-SUFFIX,renovacionoffice.com
-  - DOMAIN-SUFFIX,sprinklesapp.com
-  - DOMAIN-SUFFIX,working-bing-int.com
-  - DOMAIN-SUFFIX,emoi-cncdn.bing.com
-
 # > Cortana
   - DOMAIN-SUFFIX,cortana.ai
   - DOMAIN-SUFFIX,cortanaanalytics.com
   - DOMAIN-SUFFIX,cortanaskills.com
-
-# > Edge
-  - DOMAIN-SUFFIX,a-msedge.net
-  - DOMAIN-SUFFIX,c-msedge.net
-  - DOMAIN-SUFFIX,e-msedge.net
-  - DOMAIN-SUFFIX,edgesuite.net
-  - DOMAIN-SUFFIX,evoke-windowsservices-tas.msedge
-  - DOMAIN-SUFFIX,microsoftedge.com
-  - DOMAIN-SUFFIX,microsoftedgeinsider.com
-  - DOMAIN-SUFFIX,msedge.net
-  - DOMAIN-SUFFIX,s-msedge.net
 
 # > Here
   - DOMAIN-SUFFIX,heremaps.cn
@@ -113,12 +52,6 @@ payload:
 ## >> M12
   - DOMAIN-SUFFIX,femalefounderscomp.com
   - DOMAIN-SUFFIX,m12.vc
-
-# > Hotmail & Outlook
-  - DOMAIN-KEYWORD,hotmail
-  - DOMAIN-KEYWORD,outlook
-  - DOMAIN-SUFFIX,outlookgroups.ms
-  - DOMAIN-SUFFIX,outlookmobile.com
 
 # > Live
   - DOMAIN-SUFFIX,live.com
@@ -241,24 +174,6 @@ payload:
   - DOMAIN-SUFFIX,msxiaona.cn
   - DOMAIN-SUFFIX,officeplus.cn
   - DOMAIN-SUFFIX,renlifang.com
-
-# > Xbox
-  - DOMAIN-SUFFIX,xboxservices.com
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,forzamotorsport.net
-  - DOMAIN-SUFFIX,forzaracingchampionship.com
-  - DOMAIN-SUFFIX,forzarc.com
-  - DOMAIN-SUFFIX,gamepass.com
-  - DOMAIN-SUFFIX,msgamestudios.com
-  - DOMAIN-SUFFIX,orithegame.com
-  - DOMAIN-SUFFIX,renovacionxboxlive.com
-  - DOMAIN-SUFFIX,tellmewhygame.com
-  - DOMAIN-SUFFIX,xboxab.com
-  - DOMAIN-SUFFIX,xboxgamepass.com
-  - DOMAIN-SUFFIX,xboxgamestudios.com
-  - DOMAIN-SUFFIX,xboxplayanywhere.com
-  - DOMAIN-SUFFIX,xboxstudios.com
-  - DOMAIN-SUFFIX,xbx.lv
 
 # > Others
   - DOMAIN-SUFFIX,windows.com
