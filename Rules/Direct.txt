@@ -40,3 +40,4 @@ payload:
   #Custerm
   - DOMAIN-SUFFIX,kuangxiangit.com
   - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,msftncsi.com
