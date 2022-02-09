@@ -5,15 +5,6 @@ payload:
   - DOMAIN-SUFFIX,microsoft-tst.com
 
 # > Azure
-  - DOMAIN-KEYWORD,azure.com
-  - DOMAIN-KEYWORD,azure-dns
-  - DOMAIN-KEYWORD,azurecosmosdb
-  - DOMAIN-KEYWORD,azuredigitaltwins
-  - DOMAIN-KEYWORD,azuredns-prd
-  - DOMAIN-KEYWORD,azurefd
-  - DOMAIN-KEYWORD,azureplanetscale
-  - DOMAIN-KEYWORD,cosmosdb
-  - DOMAIN-KEYWORD,windowsazure
   - DOMAIN-SUFFIX,azure-apim.net
   - DOMAIN-SUFFIX,azure-mobile.net
   - DOMAIN-SUFFIX,azure-sphere.com
@@ -242,7 +233,6 @@ payload:
   - DOMAIN-SUFFIX,vsassets.io
 
 # > Xiaobing
-  - DOMAIN-KEYWORD,msminico
   - DOMAIN-SUFFIX,aicscience.com
   - DOMAIN-SUFFIX,mmais.com.cn
   - DOMAIN-SUFFIX,msxiaobing.com
@@ -253,9 +243,6 @@ payload:
 
 # > Xbox
   - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-KEYWORD,xbox360
-  - DOMAIN-KEYWORD,xboxlive
-  - DOMAIN-KEYWORD,xboxone
   - DOMAIN-SUFFIX,forzamotorsport.net
   - DOMAIN-SUFFIX,forzaracingchampionship.com
   - DOMAIN-SUFFIX,forzarc.com
@@ -275,9 +262,6 @@ payload:
   - DOMAIN-KEYWORD,Applicationinsights
   - DOMAIN-KEYWORD,internetexplorer
   - DOMAIN-KEYWORD,microsofthouse
-  - DOMAIN-KEYWORD,msauth
-  - DOMAIN-KEYWORD,msftauth
-  - DOMAIN-KEYWORD,winhec
   - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,acompli.net
   - DOMAIN-SUFFIX,ankarazirvesi2018.com
