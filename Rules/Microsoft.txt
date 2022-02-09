@@ -1,13 +1,11 @@
 payload:
 # > Main
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-KEYWORD,windows
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,microsoft-tst.com
 
 # > Azure
-  - DOMAIN-KEYWORD,Azure
+  - DOMAIN-KEYWORD,azure.com
   - DOMAIN-KEYWORD,azure-dns
   - DOMAIN-KEYWORD,azurecosmosdb
   - DOMAIN-KEYWORD,azuredigitaltwins
@@ -52,8 +50,6 @@ payload:
   - DOMAIN-SUFFIX,bethsoft.com
 
 # > Bing
-  - DOMAIN-KEYWORD,Bing
-  - DOMAIN-KEYWORD,biying
   - DOMAIN-SUFFIX,bbing.com
   - DOMAIN-SUFFIX,bibg.com
   - DOMAIN-SUFFIX,biing.com
@@ -120,7 +116,6 @@ payload:
   - DOMAIN-SUFFIX,s-msedge.net
 
 # > Here
-  - DOMAIN-KEYWORD,Here
   - DOMAIN-SUFFIX,heremaps.cn
   - DOMAIN-SUFFIX,ovi.com.cn
 
@@ -135,7 +130,7 @@ payload:
   - DOMAIN-SUFFIX,outlookmobile.com
 
 # > Live
-  - DOMAIN-KEYWORD,live
+  - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,sclive.net
   - DOMAIN-SUFFIX,windowslive.cn
   - DOMAIN-SUFFIX,wlxrs.com
@@ -153,7 +148,6 @@ payload:
   - DOMAIN-KEYWORD,microsoftnewsforkids
   - DOMAIN-KEYWORD,microsoftnewskids
   - DOMAIN-KEYWORD,microsoftol
-  - DOMAIN-KEYWORD,msn
   - DOMAIN-KEYWORD,msnewskids
   - DOMAIN-SUFFIX,microsoftusercontent.com
   - DOMAIN-SUFFIX,msnkids.com
@@ -211,7 +205,6 @@ payload:
   - DOMAIN-SUFFIX,xboxlive.com
 
 # > Office 365
-  - DOMAIN-KEYWORD,Office
   - DOMAIN-SUFFIX,o365cn.com
   - DOMAIN-SUFFIX,o365files.cn
   - DOMAIN-SUFFIX,o365weve-dev.com
@@ -222,17 +215,16 @@ payload:
   - DOMAIN-SUFFIX,microsoft365.com
 
 # > OneDrive & Sharepoint
-  - DOMAIN-KEYWORD,Onedrive
-  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,onedrive.com
   - DOMAIN-KEYWORD,sharepoint
   - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,svc.ms
 
 # > OneNote
-  - DOMAIN-KEYWORD,onenote
+  - DOMAIN-KEYWORD,onenote.com
 
 # > Skype
-  - DOMAIN-KEYWORD,Skype
+  - DOMAIN-KEYWORD,skype.com
   - DOMAIN-KEYWORD,skypeassets
   - DOMAIN-SUFFIX,skypeforbusiness.com
 
@@ -259,8 +251,8 @@ payload:
   - DOMAIN-SUFFIX,officeplus.cn
   - DOMAIN-SUFFIX,renlifang.com
 
-# > Xbox 
-  - DOMAIN-KEYWORD,xbox
+# > Xbox
+  - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-KEYWORD,xbox360
   - DOMAIN-KEYWORD,xboxlive
   - DOMAIN-KEYWORD,xboxone
@@ -281,11 +273,9 @@ payload:
 
 # > Others
   - DOMAIN-KEYWORD,Applicationinsights
-  - DOMAIN-KEYWORD,joinms
   - DOMAIN-KEYWORD,internetexplorer
   - DOMAIN-KEYWORD,microsofthouse
   - DOMAIN-KEYWORD,msauth
-  - DOMAIN-KEYWORD,msft
   - DOMAIN-KEYWORD,msftauth
   - DOMAIN-KEYWORD,winhec
   - DOMAIN-SUFFIX,aadrm.com
