@@ -1,122 +1,129 @@
-#自用Clash Rule-Set规则
+自用Clash Rule-Set规则
 
+#dns请自行设置
 
-##proxy-group设置
-
+#以下为配置文件
 ```yaml
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+fallback-filter:
+  geoip: true
+proxies:
+- name: 
+  server: 
+  port: 
+  type: trojan #此节点为trojan-go
+  password: 
+  network: ws
+  sni: 
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+   path: 
+   headers:
+     Host: 
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
-      -
+      - HK
+      - US
+      - DIRECT
+
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - PROXY
 
   - name: Apple
     type: select
     proxies:
       - DIRECT
       - PROXY
-
-  - name: GAME
+  
+  - name: Game
     type: select
     proxies:
       - DIRECT
       - PROXY
-```
 
+  - name: Bilibili
+    type: select
+    proxies:
+      - DIRECT
+      - PROXY
 
-##rule-providers设置
-
-###白名单
-
-```yaml
 rule-providers:
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Microsoft.txt"
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+
   Apple:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Apple.txt"
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Apple.txt"
     path: ./ruleset/Apple.yaml
     interval: 86400
 
   Game:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Game.txt"
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Game.txt"
     path: ./ruleset/Game.yaml
+    interval: 86400
+    
+  Bilibili:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Bilibili.txt"
+    path: ./ruleset/Bilibili.yaml
     interval: 86400
 
   Direct:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Direct.txt"
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Direct.txt"
     path: ./ruleset/Direct.yaml
     interval: 86400
 
-  Direct-IP:
+  CNIP:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Direct-IP.txt"
-    path: ./ruleset/Direct-IP.yaml
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/CNIP.txt"
+    path: ./ruleset/CNIP.yaml
     interval: 86400
 
   Process:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Slotheve/Clash-Rule-Set/master/Rules/Process.txt"
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Process.txt"
     path: ./ruleset/Process.yaml
     interval: 86400
 
-```
-```yaml
-rule-providers:
-  Apple:
+  Proxy:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Apple.txt"
-    path: ./ruleset/Apple.yaml
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Proxy.txt"
+    path: ./ruleset/Proxy.yaml
     interval: 86400
 
-  Game:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Game.txt"
-    path: ./ruleset/Game.yaml
-    interval: 86400
-
-  Direct:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Direct.txt"
-    path: ./ruleset/Direct.yaml
-    interval: 86400
-
-  Direct-IP:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Direct-IP.txt"
-    path: ./ruleset/Direct-IP.yaml
-    interval: 86400
-
-  Process:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Slotheve/Clash-Rule-Set@master/Rules/Process.txt"
-    path: ./ruleset/Process.yaml
-    interval: 86400
-  
-```
-
-
-##rules设置
-
-###请按需自行更改
-
-```yaml
 rules:
+  - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Apple,Apple
-  - RULE-SET,Game,GAME
+  - RULE-SET,Game,Game
+  - RULE-SET,Bilibili,Bilibili
+  - RULE-SET,Proxy,PROXY
   - RULE-SET,Process,DIRECT
-  - RULE-SET,Direct-IP,DIRECT
+  - RULE-SET,CNIP,DIRECT
   - RULE-SET,Direct,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
-```
+  ```yaml
