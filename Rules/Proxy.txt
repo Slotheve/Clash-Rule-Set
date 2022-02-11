@@ -9,3 +9,4 @@ payload:
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,agemys.com
+  - DOMAIN-SUFFIX,dogyun.com
