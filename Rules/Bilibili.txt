@@ -1,4 +1,2 @@
 payload:
   - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN-SUFFIX,biliapi.net
-  - DOMAIN-SUFFIX,bilivideo.com
