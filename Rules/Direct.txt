@@ -33,10 +33,6 @@ payload:
   - DOMAIN-SUFFIX,lbs.map.qq.com
   - DOMAIN-SUFFIX,ue.indoorloc.map.qq.com
   - DOMAIN-KEYWORD,qq.com
-  #PayPal
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypalobjects.com
   #Custerm
   - DOMAIN-SUFFIX,kuangxiangit.com
   - DOMAIN-SUFFIX,appsflyer.com
