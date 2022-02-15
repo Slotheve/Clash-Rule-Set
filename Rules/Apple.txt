@@ -1,8 +1,8 @@
 payload:
-  - DOMAIN-KEYWORD,apple.com
-  - DOMAIN-KEYWORD,icloud.com
-  - DOMAIN-KEYWORD,itunes.com
-  - DOMAIN-KEYWORD,itunes.apple.com
-  - DOMAIN-KEYWORD,mzstatic.com
-  - DOMAIN-KEYWORD,flurry.com
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,cdn.apple-cloudkit.com
