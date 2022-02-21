@@ -4,55 +4,6 @@ payload:
   - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,microsoft-tst.com
 
-# > Azure
-  - DOMAIN-SUFFIX,azure-apim.net
-  - DOMAIN-SUFFIX,azure-mobile.net
-  - DOMAIN-SUFFIX,azure-sphere.com
-  - DOMAIN-SUFFIX,azure-test.net
-  - DOMAIN-SUFFIX,azurecomcdn.net
-  - DOMAIN-SUFFIX,azurecontainer.io
-  - DOMAIN-SUFFIX,azurecosmos.net
-  - DOMAIN-SUFFIX,azuredatabricks.net
-  - DOMAIN-SUFFIX,azuredevopslaunch.com
-  - DOMAIN-SUFFIX,azuredigitaltwin.com
-  - DOMAIN-SUFFIX,azureedge-test.net
-  - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,azureiotcentral.com
-  - DOMAIN-SUFFIX,azureiotsolutions.com
-  - DOMAIN-SUFFIX,azureiotsuite.com
-  - DOMAIN-SUFFIX,azureserviceprofiler.com
-  - DOMAIN-SUFFIX,azuresmartspaces.net
-  - DOMAIN-SUFFIX,azurestackvalidation.com
-  - DOMAIN-SUFFIX,azurewebsites.net
-  - DOMAIN-SUFFIX,chinacloudapi.cn
-  - DOMAIN-SUFFIX,chinacloudapp.cn
-  - DOMAIN-SUFFIX,chinacloudsites.cn
-  - DOMAIN-SUFFIX,devopsms.com
-  - DOMAIN-SUFFIX,gotcosmos.com
-  - DOMAIN-SUFFIX,microsofteca.com
-  - DOMAIN-SUFFIX,microsoftiotcentral.com
-  - DOMAIN-SUFFIX,serverlesslibrary.net
-  - DOMAIN-SUFFIX,tryfunctions.com
-
-## >> Bethesda
-  - DOMAIN-SUFFIX,beth.games
-  - DOMAIN-SUFFIX,bethesda.net
-  - DOMAIN-SUFFIX,bethesdagamestudios.com
-  - DOMAIN-SUFFIX,bethsoft.com
-
-# > Cortana
-  - DOMAIN-SUFFIX,cortana.ai
-  - DOMAIN-SUFFIX,cortanaanalytics.com
-  - DOMAIN-SUFFIX,cortanaskills.com
-
-# > Here
-  - DOMAIN-SUFFIX,heremaps.cn
-  - DOMAIN-SUFFIX,ovi.com.cn
-
-## >> M12
-  - DOMAIN-SUFFIX,femalefounderscomp.com
-  - DOMAIN-SUFFIX,m12.vc
-
 # > Live
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,sclive.net
@@ -65,17 +16,6 @@ payload:
   - DOMAIN-SUFFIX,minecraft.net
   - DOMAIN-SUFFIX,minecraftshop.com
   - DOMAIN-SUFFIX,mojang.com
-
-# > MSN
-  - DOMAIN-KEYWORD,microsoftnews
-  - DOMAIN-KEYWORD,microsoft-online
-  - DOMAIN-KEYWORD,microsoftnewsforkids
-  - DOMAIN-KEYWORD,microsoftnewskids
-  - DOMAIN-KEYWORD,microsoftol
-  - DOMAIN-KEYWORD,msnewskids
-  - DOMAIN-SUFFIX,microsoftusercontent.com
-  - DOMAIN-SUFFIX,msnkids.com
-  - DOMAIN-SUFFIX,winmp.cn
 
 # > Microsoft Developer
   - DOMAIN-KEYWORD,microsoftreactor
@@ -126,52 +66,13 @@ payload:
   - DOMAIN-SUFFIX,svc.ms
   - DOMAIN-SUFFIX,visualstudio.com
 
-# > Office 365
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,o365cn.com
-  - DOMAIN-SUFFIX,o365files.cn
-  - DOMAIN-SUFFIX,o365weve-dev.com
-  - DOMAIN-SUFFIX,o365weve-ppe.com
-  - DOMAIN-SUFFIX,o365weve.com
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,officedev.cn
-  - DOMAIN-SUFFIX,microsoft365.com
-
-# > OneDrive & Sharepoint
-  - DOMAIN-KEYWORD,onedrive.com
-  - DOMAIN-KEYWORD,sharepoint
-  - DOMAIN-SUFFIX,sharepointonline.com
-  - DOMAIN-SUFFIX,svc.ms
-
-# > OneNote
-  - DOMAIN-KEYWORD,onenote.com
-
-# > Skype
-  - DOMAIN-KEYWORD,skype.com
-  - DOMAIN-KEYWORD,skypeassets
-  - DOMAIN-SUFFIX,skypeforbusiness.com
-
 # > Store
   - DOMAIN-KEYWORD,microsoftstore
-
-# > Sway
-  - DOMAIN-SUFFIX,sway-cdn.com
-  - DOMAIN-SUFFIX,sway-extensions.com
-  - DOMAIN-SUFFIX,sway.com
 
 # > VisualStudio
   - DOMAIN-KEYWORD,visualstudio
   - DOMAIN-SUFFIX,visualstudio-staging.com
   - DOMAIN-SUFFIX,vsassets.io
-
-# > Xiaobing
-  - DOMAIN-SUFFIX,aicscience.com
-  - DOMAIN-SUFFIX,mmais.com.cn
-  - DOMAIN-SUFFIX,msxiaobing.com
-  - DOMAIN-SUFFIX,msxiaoice.com
-  - DOMAIN-SUFFIX,msxiaona.cn
-  - DOMAIN-SUFFIX,officeplus.cn
-  - DOMAIN-SUFFIX,renlifang.com
 
 # > Others
   - DOMAIN-SUFFIX,windows.com
