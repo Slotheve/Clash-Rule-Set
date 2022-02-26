@@ -1,19 +1,19 @@
 payload:
   #Google
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,google.cn
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,google.com
-  - DOMAIN-SUFFIX,googlesyndication.com
-  - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googleusercontent.com
+  - '+.gstatic.com'
+  - '+.google.cn'
+  - '+.googleapis.com'
+  - '+.google-analytics.com'
+  - '+.google.com'
+  - '+.googlesyndication.com'
+  - '+.googletagservices.com'
+  - '+.googletagmanager.com'
+  - '+.googleusercontent.com'
   #PayPal
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypalobjects.com
+  - '+.paypal.com'
+  - '+.paypal.me'
+  - '+.paypalobjects.com'
   #Custom
-  - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,agemys.com
-  - DOMAIN-SUFFIX,dogyun.com
+  - '+.msftncsi.com'
+  - '+.agemys.com'
+  - '+.dogyun.com'

@@ -1,7 +1,7 @@
 payload:
-  - DOMAIN-SUFFIX,apple.com
-  - DOMAIN-SUFFIX,itunes.com
-  - DOMAIN-SUFFIX,itunes.apple.com
-  - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,flurry.com
-  - DOMAIN-SUFFIX,cdn.apple-cloudkit.com
+  - '+.apple.com'
+  - '+.itunes.com'
+  - '+.itunes.apple.com'
+  - '+.mzstatic.com'
+  - '+.flurry.com'
+  - '+.cdn.apple-cloudkit.com'
