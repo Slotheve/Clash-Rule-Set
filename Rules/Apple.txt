@@ -1,4 +1,5 @@
 payload:
+  - '+.icloud.com'
   - '+.apple.com'
   - '+.itunes.com'
   - '+.itunes.apple.com'
