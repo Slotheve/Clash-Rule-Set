@@ -191,7 +191,6 @@ payload:
   - '+.vscode-webview.net'
   - '+.vscode.dev'
   ## >> WindowsLive
-  - '+.live.cn'
   - '+.live.com.akadns.net'
   - '+.sclive.net'
   - '+.windowslive.cn'
@@ -280,10 +279,6 @@ payload:
   - '+.kidgrid.tv'
   - '+.kumo.com'
   - '+.latampartneruniversity.com'
-  - '+.live.com'
-  - '+.live.com.au'
-  - '+.live.eu'
-  - '+.live.net'
   - '+.livingyourambition.com'
   - '+.localytics.com'
   - '+.lync.com'
