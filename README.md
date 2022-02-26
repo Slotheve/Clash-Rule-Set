@@ -119,6 +119,7 @@ rules:
   - RULE-SET,Game,Game
   - RULE-SET,Bilibili,Bilibili
   - RULE-SET,Proxy,PROXY
+  - RULE-SET,TGIP,PROXY
   - RULE-SET,Process,DIRECT
   - RULE-SET,CNIP,DIRECT
   - RULE-SET,Direct,DIRECT
