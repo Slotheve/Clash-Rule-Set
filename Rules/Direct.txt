@@ -23,4 +23,4 @@ payload:
   ## Custerm
   - '+.kuangxiangit.com'
   - '+.appsflyer.com'
-  - '+.frps.slotheve.+'
+  - '+.frp.slotheve.site'
