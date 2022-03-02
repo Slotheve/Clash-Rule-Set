@@ -73,7 +73,7 @@ rule-providers:
     
   Bilibili:
     type: http
-    behavior: domain
+    behavior: classical
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Bilibili.txt"
     path: ./ruleset/Bilibili.yaml
     interval: 86400
@@ -105,13 +105,6 @@ rule-providers:
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Proxy.txt"
     path: ./ruleset/Proxy.yaml
     interval: 86400
-    
-  TGIP:
-    type: http
-    behavior: ipcidr
-    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/TGIP.txt"
-    path: ./ruleset/TGIP.yaml
-    interval: 86400
 
 rules:
   - RULE-SET,Microsoft,Microsoft
@@ -119,10 +112,9 @@ rules:
   - RULE-SET,Game,Game
   - RULE-SET,Bilibili,Bilibili
   - RULE-SET,Proxy,PROXY
-  - RULE-SET,TGIP,PROXY
   - RULE-SET,Process,DIRECT
-  - RULE-SET,CNIP,DIRECT
   - RULE-SET,Direct,DIRECT
-  - GEOIP,CN,DIRECT
+  - RULE-SET,CNIP,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT,no-resolve
   - MATCH,PROXY
   ```yaml
