@@ -13,11 +13,6 @@ payload:
   - '+.paypal.com'
   - '+.paypal.me'
   - '+.paypalobjects.com'
-  #Telegram
-  - '+.t.me'
-  - '+.tdesktop.com'
-  - '+.telegra.ph'
-  - '+.telesco.pe'
   #Custom
   - '+.msftncsi.com'
   - '+.agemys.com'

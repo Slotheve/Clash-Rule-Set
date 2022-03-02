@@ -4,5 +4,4 @@ payload:
   - '+.itunes.com'
   - '+.itunes.apple.com'
   - '+.mzstatic.com'
-  - '+.flurry.com'
   - '+.cdn.apple-cloudkit.com'

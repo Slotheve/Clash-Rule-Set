@@ -34,4 +34,3 @@ payload:
   - '+.playartifact.com'
   - '+.static-assets-prod.epicgames.com'
   - '+.cdn.ea.com'
-  - '+.epicgames'
