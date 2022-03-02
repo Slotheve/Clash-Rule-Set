@@ -25,78 +25,69 @@ proxies:
   ws-opts:
    path: 
    headers:
-     Host: 
+     Host:
+- name: "vmess"
+    type: vmess
+    server: 
+    port: 
+    uuid: 
+    alterId: 32
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: 
+      headers:
+        Host: 
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
-      - HK
-      - US
+      - 
       - DIRECT
-
-  - name: Microsoft
-    type: select
-    proxies:
-      - DIRECT
-      - PROXY
-
-  - name: Apple
-    type: select
-    proxies:
-      - DIRECT
-      - PROXY
-  
-  - name: Game
-    type: select
-    proxies:
-      - DIRECT
-      - PROXY
-
-  - name: Bilibili
-    type: select
-    proxies:
-      - DIRECT
-      - PROXY
 
 rule-providers:
   Microsoft:
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Microsoft.txt"
     path: ./ruleset/Microsoft.yaml
     interval: 86400
 
   Apple:
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Apple.txt"
     path: ./ruleset/Apple.yaml
     interval: 86400
 
   Game:
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Game.txt"
     path: ./ruleset/Game.yaml
     interval: 86400
     
   Bilibili:
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Bilibili.txt"
     path: ./ruleset/Bilibili.yaml
     interval: 86400
 
   Direct:
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Direct.txt"
     path: ./ruleset/Direct.yaml
     interval: 86400
 
   CNIP:
     type: http
-    behavior: classical
+    behavior: ipcidr
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/CNIP.txt"
     path: ./ruleset/CNIP.yaml
     interval: 86400
@@ -110,9 +101,16 @@ rule-providers:
 
   Proxy:
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/Proxy.txt"
     path: ./ruleset/Proxy.yaml
+    interval: 86400
+    
+  TGIP:
+    type: http
+    behavior: ipcidr
+    url: "https://gitee.com/tangjihan/Clash-Rule-Set/raw/master/Rules/TGIP.txt"
+    path: ./ruleset/TGIP.yaml
     interval: 86400
 
 rules:
@@ -121,6 +119,7 @@ rules:
   - RULE-SET,Game,Game
   - RULE-SET,Bilibili,Bilibili
   - RULE-SET,Proxy,PROXY
+  - RULE-SET,TGIP,PROXY
   - RULE-SET,Process,DIRECT
   - RULE-SET,CNIP,DIRECT
   - RULE-SET,Direct,DIRECT
