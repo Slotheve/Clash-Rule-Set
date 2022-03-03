@@ -18,10 +18,10 @@ proxies:
   port: 
   type: trojan #此节点为trojan-go
   password: 
-  network: ws
   sni: 
   skip-cert-verify: true
   udp: true
+  network: ws
   ws-opts:
    path: 
    headers:
