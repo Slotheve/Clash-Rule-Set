@@ -55,6 +55,7 @@ payload:
   - '+.test'
   - '+.xnotify.xboxlive.com'
   ## Custerm
+  - '+.flurry.com'
   - '+.kuangxiangit.com'
   - '+.appsflyer.com'
   - '+.frp.slotheve.site'
