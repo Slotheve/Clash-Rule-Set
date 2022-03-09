@@ -1,0 +1,5 @@
+美团外卖
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? response-body
+
+京东
+^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert response-body
