@@ -17,3 +17,4 @@ payload:
   - '+.msftncsi.com'
   - '+.agemys.com'
   - '+.dogyun.com'
+  - '+.speedtest.net'
