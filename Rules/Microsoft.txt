@@ -1,9 +1,4 @@
 payload:
-  ## >> 傲维网
-  - '+.here.com'
-  - '+.here.net'
-  - '+.heremaps.cn'
-  - '+.ovi.com.cn'
   ## >> Bing
   - '+.bbing.com'
   - '+.bibg.com'
@@ -73,9 +68,6 @@ payload:
   - '+.microsoftedgeinsider.com'
   - '+.msedge.net'
   - '+.s-msedge.net'
-  ## >> M12
-  - '+.femalefounderscomp.com'
-  - '+.m12.vc'
   ## >> Microsoft-dev
   - '+.adaptivecards.io'
   - '+.api-extractor.com'
@@ -154,7 +146,6 @@ payload:
   - '+.msnewskids.net'
   - '+.msnewskids.org'
   - '+.msnkids.com'
-  - '+.winmp.cn'
   ## >> Office365
   - '+.o365cn.com'
   - '+.o365files.cn'
@@ -174,10 +165,6 @@ payload:
   - '+.skypeassets.com'
   - '+.skypeassets.net'
   - '+.skypeforbusiness.com'
-  ## >> Sway
-  - '+.sway-cdn.com'
-  - '+.sway-extensions.com'
-  - '+.sway.com'
   ## >> VisualStudio
   - '+.visualstudio-staging.com'
   - '+.visualstudio.co'
