@@ -63,7 +63,6 @@ payload:
   - '+.emoi-cncdn.bing.com'
   - '+.cn.bing.com'
   - '+.cn.bing.net'
-  - '+.ditu.live.com'
   ## >> Edge
   - '+.a-msedge.net'
   - '+.c-msedge.net'
@@ -190,10 +189,6 @@ payload:
   - '+.vscode-unpkg.net'
   - '+.vscode-webview.net'
   - '+.vscode.dev'
-  ## >> WindowsLive
-  - '+.live.com.akadns.net'
-  - '+.sclive.net'
-  - '+.windowslive.cn'
   - '+.wlxrs.com'
   ## >> 微软小冰
   - '+.aicscience.com'
