@@ -16,5 +16,4 @@ payload:
   #Custom
   - '+.msftncsi.com'
   - '+.agemys.com'
-  - '+.dogyun.com'
-  - '+.speedtest.net'
+  - '+.ubistatic3-a.akamaihd.net'
