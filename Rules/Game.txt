@@ -1,36 +1,36 @@
 payload:
-  - '+.akamaihd.net'
-  - '+.steamcontent.com'
-  - '+.steamunlocked.net'
-  - '+.steamusercontent.com'
-  - '+.s.team'
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamunlocked.net
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,s.team
   ## >> 阿里云 Download CDN
-  - '+.cdn-ali.content.steamchina.com'
+  - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   ## >> 白山云 Download CDN
-  - '+.st.dl.bscstorage.net'
-  - '+.st.dl.eccdnx.com'
-  - '+.st.dl.pinyuncloud.com'
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   ## >> 华为云 Download CDN
-  - '+.steampipe.steamcontent.tnkjmec.com'
+  - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
   ## >> 金山云 Download CDN
-  - '+.dl.steam.clngaa.com'
-  - '+.dl.steam.ksyna.com'
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
   ## >> 腾讯云 Download CDN
-  - '+.cdn-qc.content.steamchina.com'
+  - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
   ## >> 完美 Download CDN
-  - '+.csgo.wmsj.cn'
-  - '+.dota2.wmsj.cn'
-  - '+.wmsjsteam.com'
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,wmsjsteam.com
   ## >> 网宿 Download CDN
-  - '+.cdn-ws.content.steamchina.com'
-  - '+.steampowered.com.8686c.com'
-  - '+.steamstatic.com.8686c.com'
-  - '+.steamstore'
-  - '+.steamuserimages'
-  - '+.steambroadcast'
+  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamstore
+  - DOMAIN-SUFFIX,steamuserimages
+  - DOMAIN-SUFFIX,steambroadcast
   ## >> Uplay Download
-  - '+.gamedownloads-rockstargames-com.akamaized.net'
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   ## >> Custom
-  - '+.playartifact.com'
-  - '+.static-assets-prod.epicgames.com'
-  - '+.cdn.ea.com'
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,static-assets-prod.epicgames.com
+  - DOMAIN-SUFFIX,cdn.ea.com
