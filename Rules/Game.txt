@@ -4,8 +4,10 @@ payload:
   - DOMAIN-SUFFIX,steamunlocked.net
   - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,s.team
+  - DOMAIN-SUFFIX,steamstatic.com
   ## >> 阿里云 Download CDN
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
+  - DOMAIN-SUFFIX,alicdn.com
   ## >> 白山云 Download CDN
   - DOMAIN-SUFFIX,st.dl.bscstorage.net
   - DOMAIN-SUFFIX,st.dl.eccdnx.com
