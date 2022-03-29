@@ -1,8 +1,8 @@
 payload:
-  ## >> 自定义
+  ## > 自定义
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,qq.com
-  ## >> WeChat
+  ## > WeChat
   - IP-CIDR,101.226.211.0/24
   - IP-CIDR,101.226.222.0/24
   - IP-CIDR,101.226.226.0/24

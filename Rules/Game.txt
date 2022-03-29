@@ -1,4 +1,5 @@
 payload:
+  ## >> Steam cdn
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamunlocked.net
