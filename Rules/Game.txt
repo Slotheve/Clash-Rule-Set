@@ -6,7 +6,6 @@ payload:
   - DOMAIN-KEYWORD,beige.xboxservices.com
   ## >> Steam cdn
   - DOMAIN-SUFFIX,akamaihd.net
-  - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamunlocked.net
   - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,s.team
