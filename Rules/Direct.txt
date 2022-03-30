@@ -2,6 +2,7 @@ payload:
   ## > 自定义
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-KEYWORD,assets1.xboxlive.com
   ## > WeChat
   - IP-CIDR,101.226.211.0/24
   - IP-CIDR,101.226.222.0/24
