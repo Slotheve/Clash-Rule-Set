@@ -1,4 +1,9 @@
 payload:
+  ## >> Xbox
+  - DOMAIN-KEYWORD,assets1.xboxlive.com
+  - DOMAIN-KEYWORD,assets2.xboxlive.com
+  - DOMAIN-KEYWORD,dlassets.xboxlive.com
+  - DOMAIN-KEYWORD,beige.xboxservices.com
   ## >> Steam cdn
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamcontent.com

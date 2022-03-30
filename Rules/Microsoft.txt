@@ -1,7 +1,4 @@
 payload:
-  ## >> 自定义
-  - DOMAIN-KEYWORD,assets1.xboxlive.com
-  - DOMAIN-KEYWORD,beige.xboxservices.com
   ## >> Bing
   - DOMAIN-SUFFIX,bbing.com
   - DOMAIN-SUFFIX,bibg.com
