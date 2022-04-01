@@ -37,6 +37,11 @@ payload:
   - DOMAIN-SUFFIX,steambroadcast
   ## >> Uplay Download
   - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+  ## >> Epic
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,unrealengine.com
   ## >> Custom
   - DOMAIN-SUFFIX,playartifact.com
   - DOMAIN-SUFFIX,static-assets-prod.epicgames.com
