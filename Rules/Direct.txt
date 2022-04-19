@@ -67746,6 +67746,7 @@ payload:
   - DOMAIN-SUFFIX,zzzzzz.me
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-KEYWORD,slotheve.eu.org
   ## > WeChat
   - IP-CIDR,101.226.211.0/24
   - IP-CIDR,101.226.222.0/24
