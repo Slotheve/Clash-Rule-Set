@@ -7,7 +7,6 @@ payload:
   ## >> Steam cdn
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-KEYWORD,steamstatic.com
   ## >> 阿里云 Download CDN
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   - DOMAIN-SUFFIX,alicdn.com
