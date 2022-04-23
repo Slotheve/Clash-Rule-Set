@@ -7,7 +7,6 @@ payload:
   ## >> Steam cdn
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,alicdn.com
   ## >> 完美 Download CDN
   - DOMAIN-SUFFIX,csgo.wmsj.cn
