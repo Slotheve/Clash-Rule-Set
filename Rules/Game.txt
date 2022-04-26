@@ -6,6 +6,7 @@ payload:
   - DOMAIN-KEYWORD,beige.xboxservices.com
   ## >> Steam cdn
   - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,alicdn.com
   ## >> 完美 Download CDN
