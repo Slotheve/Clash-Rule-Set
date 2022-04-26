@@ -1,4 +1,7 @@
 payload:
+  - DOMAIN-KEYWORD,apple
+  - DOMAIN-KEYWORD,icloud
+  - DOMAIN-KEYWORD,itunes
   - DOMAIN-SUFFIX,a1.mzstatic.com
   - DOMAIN-SUFFIX,a2.mzstatic.com
   - DOMAIN-SUFFIX,a3.mzstatic.com
@@ -19,6 +22,3 @@ payload:
   - DOMAIN-SUFFIX,is5-ssl.mzstatic.com
   - DOMAIN-SUFFIX,is5.mzstatic.com
   - DOMAIN-SUFFIX,s.mzstatic.com
-  - DOMAIN-KEYWORD,apple
-  - DOMAIN-KEYWORD,icloud
-  - DOMAIN-KEYWORD,itunes
