@@ -1,7 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,qq.com
-  - DOMAIN,fr.slotheve.eu.org
   - DOMAIN-SUFFIX,slotheve.eu.org
   ## > WeChat
   - IP-CIDR,101.226.211.0/24
