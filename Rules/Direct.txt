@@ -8,4 +8,5 @@ payload:
   - DOMAIN-SUFFIX,hbooker.com
   - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,myapp.com
+  - DOMAIN-SUFFIX,share.mob.com
   - DOMAIN-KEYWORD,.cn
