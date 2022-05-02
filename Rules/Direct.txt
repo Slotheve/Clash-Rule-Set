@@ -6,6 +6,6 @@ payload:
   - DOMAIN-SUFFIX,slotheve.eu.org
   - DOMAIN-SUFFIX,faloo.com
   - DOMAIN-SUFFIX,hbooker.com
-  - DOMAIN-SUFFIX,share.mob.com
-  - DOMAIN-KEYWORD,tencent
+  - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,myapp.com
+  - DOMAIN-KEYWORD,.cn
