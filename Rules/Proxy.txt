@@ -18,4 +18,3 @@ payload:
   - DOMAIN-SUFFIX,agemys.com
   - DOMAIN,ubistatic3-a.akamaihd.net
   - DOMAIN,fr.slotheve.eu.org
-  - DOMAIN,img.faloo.com
