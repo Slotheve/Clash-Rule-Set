@@ -1,6 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,slotheve.eu.org
   - DOMAIN-SUFFIX,share.mob.com
   - DOMAIN-KEYWORD,.cn
