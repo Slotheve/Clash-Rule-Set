@@ -17,3 +17,4 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,agemys.com
   - DOMAIN,ubistatic3-a.akamaihd.net
+  - DOMAIN,fr.slotheve.eu.org
