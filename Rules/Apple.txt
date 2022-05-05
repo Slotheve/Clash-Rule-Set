@@ -2,23 +2,5 @@ payload:
   - DOMAIN-KEYWORD,apple
   - DOMAIN-KEYWORD,icloud
   - DOMAIN-KEYWORD,itunes
-  - DOMAIN-SUFFIX,a1.mzstatic.com
-  - DOMAIN-SUFFIX,a2.mzstatic.com
-  - DOMAIN-SUFFIX,a3.mzstatic.com
-  - DOMAIN-SUFFIX,a4.mzstatic.com
-  - DOMAIN-SUFFIX,a5.mzstatic.com
-  - DOMAIN-SUFFIX,appldnld.g.aaplimg.com
-  - DOMAIN-SUFFIX,apps.mzstatic.com
-  - DOMAIN-SUFFIX,cds-cdn.v.aaplimg.com
-  - DOMAIN-SUFFIX,iosapps.itunes.g.aaplimg.com
-  - DOMAIN-SUFFIX,is1-ssl.mzstatic.com
-  - DOMAIN-SUFFIX,is1.mzstatic.com
-  - DOMAIN-SUFFIX,is2-ssl.mzstatic.com
-  - DOMAIN-SUFFIX,is2.mzstatic.com
-  - DOMAIN-SUFFIX,is3-ssl.mzstatic.com
-  - DOMAIN-SUFFIX,is3.mzstatic.com
-  - DOMAIN-SUFFIX,is4-ssl.mzstatic.com
-  - DOMAIN-SUFFIX,is4.mzstatic.com
-  - DOMAIN-SUFFIX,is5-ssl.mzstatic.com
-  - DOMAIN-SUFFIX,is5.mzstatic.com
-  - DOMAIN-SUFFIX,s.mzstatic.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,aaplimg.com
