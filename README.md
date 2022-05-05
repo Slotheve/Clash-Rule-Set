@@ -5,6 +5,13 @@
 #以下为配置文件
 ```yaml
 proxies:
+- name: ss
+  server: 
+  port: 
+  type: ss  (建议搭配中转机,延迟低速度快安全性高)
+  cipher: aes-256-gcm
+  password: 
+  udp: true
 - name: 
   server: 
   port: 
