@@ -1,6 +1,0 @@
-payload:
-  - DOMAIN-KEYWORD,apple
-  - DOMAIN-KEYWORD,icloud
-  - DOMAIN-KEYWORD,itunes
-  - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,aaplimg.com

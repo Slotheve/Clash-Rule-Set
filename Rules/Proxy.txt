@@ -1,5 +1,4 @@
 payload:
-  #Google
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,google.cn
   - DOMAIN-SUFFIX,googleapis.com
@@ -9,12 +8,6 @@ payload:
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googleusercontent.com
-  #PayPal
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-KEYWORD,paypalobjects
-  #Custom
-  - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,agemys.com
-  - DOMAIN,ubistatic3-a.akamaihd.net
-  - DOMAIN,cdn.jsdelivr.net
