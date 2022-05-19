@@ -1,0 +1,23 @@
+payload:
+  ## >> Xbox
+  - DOMAIN-KEYWORD,assets1.xboxlive.com
+  - DOMAIN-KEYWORD,assets2.xboxlive.com
+  - DOMAIN-KEYWORD,dlassets.xboxlive.com
+  - DOMAIN-KEYWORD,beige.xboxservices.com
+  ## >> Steam cdn
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,alicdn.com
+  ## >> 完美 Download CDN
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,wmsjsteam.com
+  ## >> Epic
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,unrealengine.com
+  ## >> Custom
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,static-assets-prod.epicgames.com
+  - DOMAIN-SUFFIX,cdn.ea.com
